@@ -1,0 +1,23 @@
+.done{
+    color: green;
+    text-decoration: line-through;
+}
+
+.notDone{
+    color: red;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.card:hover{
+    background-color: #f5f5f5;
+}

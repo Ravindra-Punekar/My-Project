@@ -1,0 +1,24 @@
+{
+    "todos":[
+        {
+            "id":1,
+            "title":"First Task",
+            "completed":true
+        },
+        {
+            "id":2,
+            "title":"Complete MeetEase Project",
+            "completed":false
+        },
+        {
+            "id":3,
+            "title":"Learn Redux",
+            "completed":false
+        },
+        {
+            "id":4,
+            "title":"Interview Preparation",
+            "completed":false
+        }
+    ]
+}
