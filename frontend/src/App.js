@@ -11,11 +11,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Navigation />
-
+        
         <Routes>
           <Route element={<Home />} path="/" exact />
           <Route element={ <Contact/>} path='/contact' exact />
         </Routes>
+        
       </BrowserRouter>
     </div>
   );

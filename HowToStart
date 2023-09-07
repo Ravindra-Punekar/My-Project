@@ -1,0 +1,7 @@
+open terminal
+cd frontend
+npm start
+
+open another terminal
+cd frontend
+npx json-server --watch data/db.json --port 8000

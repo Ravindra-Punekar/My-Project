@@ -17,10 +17,9 @@ const Navigation = () => {
     <div className={styles.navbar}>
       <h1 className={styles.logo}>
       <Link to='/'>ToDo</Link>
-
       </h1>
       
-      <h1 clasName={styles.contact}>
+      <h1 className={styles.contact}>
         <Link to='/contact'>Connect with me </Link>
       </h1>
     </div>
