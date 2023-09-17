@@ -18,8 +18,10 @@
     margin-right: 20px;
 }
 .button:hover {
-    background: #014a9c;
+    background: #035dc4;
 }
-.arrow {
-    margin-left: 10px;
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }

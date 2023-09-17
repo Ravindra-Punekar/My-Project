@@ -20,6 +20,7 @@ const Card = ({ todos }) => {
           toggleIsDone(id);
         }}
         text={todo.completed ? "Done" : "Not Done"}
+        icon= {todo.completed ? "done2" : "todo"}
       />
       {todo.completed ? (
         <div className={styles.done}>

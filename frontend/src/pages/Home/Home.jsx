@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 // import Button from '../../components/shared/Button/Button';
 import Card from '../../components/shared/Card/Card';
 import useFetch from '../../useFetch';
+import SideNav from '../../components/shared/SideNav/SideNav';
 
 const Home = () => {
   
@@ -10,6 +11,7 @@ const Home = () => {
  
   return (
     <div className={styles.home}>
+      <div className={styles.SideNav}><SideNav /></div>
       <div className={styles.cardWrapper}>
         <div className={styles.card}>
             {error && <h1>{error}</h1>}

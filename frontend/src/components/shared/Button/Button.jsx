@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({ text, onClick }) => {
+const Button = ({ text, icon, onClick }) => {
     return (
-        <button onClick={onClick} className={styles.button}>
-            <span>{text}</span>
+        <button onClick={onClick} className={styles.button} >
             <img
-                className={styles.arrow}
-                src="/images/arrow-forward.png"
-                alt="arrow"
-            />
+                className={styles.icon}
+                src={`/images/${icon}.png`}
+                alt="icon"
+                />
+            <span>{text}</span>
         </button>
     );
 };
